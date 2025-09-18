@@ -106,5 +106,10 @@ Perform a dry run to ensure automatic renewal works:
 ```
 sudo certbot renew --dry-run
 ```
+```
+ sudo systemctl list-timers | grep certbot
+Thu 2025-09-18 18:43:24 UTC       8h -                                      - certbot.timer                  certbot.service
+```
+
 
 
